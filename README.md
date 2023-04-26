@@ -6,6 +6,8 @@ This is a simple flask web app which will run a calculator program in the browse
 
 ## Background
 
+**All of these commands should be run from a session on the AWS EC2 instance you wish to install the calculator webapp on.**
+
 [Flask](https://flask.palletsprojects.com/en/2.3.x/) is a minimalistic Python library for creating web server applications.
 For this assignment all we have to do is install flask and run the program here.
 
