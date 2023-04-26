@@ -14,6 +14,8 @@ For this assignment all we have to do is install flask and run the program here.
 This guide roughly follows the [basic Flask install steps](https://flask.palletsprojects.com/en/2.3.x/installation/)
 
 ## Dependencies
+These are the dependencies required for this project. Installation steps are below.
+
 - a package manager - `apt` or `yum` (or `brew` for that matter)
 - git
 - python3
