@@ -13,6 +13,13 @@ For this assignment all we have to do is install flask and run the program here.
 
 This guide roughly follows the [basic Flask install steps](https://flask.palletsprojects.com/en/2.3.x/installation/)
 
+## Dependencies
+- a package manager - `apt` or `yum` (or `brew` for that matter)
+- git
+- python3
+- pip
+- flask
+
 ## Installation
 
 Run `sudo apt update` or `sudo yum update` to update your package manager. We will use `apt` in the guide code here but you can replace `apt` with `yum` and everything should work.
