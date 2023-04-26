@@ -1,4 +1,8 @@
-# Installing flask on an AWS EC2 instance
+# Calculator
+
+This is a simple flask web app which will run a calculator program in the browser.
+
+# Installing on an AWS EC2 instance
 
 ## Background
 
