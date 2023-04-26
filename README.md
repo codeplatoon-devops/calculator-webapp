@@ -9,6 +9,8 @@ This guide roughly follows the [basic Flask install steps](https://flask.pallets
 
 ## Installation
 
+Run `sudo apt update` or `sudo yum update` to update your package manager. We will use `apt` in the guide code here but you can replace `apt` with `yum` and everything should work.
+
 ### Installing pip
 
 [pip](https://pypi.org/project/pip/) is a Python package manager - it is the recommeneded tool for installing Python packages.
@@ -31,16 +33,22 @@ sudo apt install pip
 
 Now type `pip --version` to confirm `pip` was successfully installed. 
 
+### Installing git
+If `git` is not installed (run `git --version` to check), install git: `sudo apt install git`. 
+
+### Cloning this repo
+Run `git clone https://github.com/codeplatoon-devops/calculator-webapp.git` -- this will "clone" this git repo and make a copy of it on your machine.
+
+### Navigate to project directory
+`cd calculator-webapp`
 
 ### Create & activate Python virtual environment
 A python virtual environment is a fancy term for a directory holding the python packages and correct version of the python language that our project uses.
 
 We will learn more about this later, for today we will just follow these steps to get our flask server running.
 
-Run the following commands where you want your flask webserver to live. Replace `myproject` with the desired name of your project directory. 
+Run the following commands in the project directory:
 ```
-mkdir myproject
-cd myproject
 python3 -m venv .venv
 source .venv/bin/activate
 ```
@@ -54,4 +62,7 @@ If you are curious, running `deactivate` will deactivate the virtual environment
 
 With the virtual environment activated run `pip install flask` to install flask. If there is a `requirements.txt` file you could also run
 `pip -r requirements.txt` to install all the python dependencies (such as flask) in the `requirements.txt` file.
+
+
+## Running the webserver
 
