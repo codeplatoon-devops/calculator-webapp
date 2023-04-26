@@ -83,3 +83,7 @@ With the virtual environment activated run `pip install flask` to install flask.
 
 ## Running the webserver
 
+Run:
+`python3 calc.py`
+
+The webserver should be run on port 8080. 
