@@ -1,6 +1,8 @@
 # Calculator
 
 This is a simple flask web app which will run a calculator program in the browser.
+![Screen Shot 2023-04-26 at 11 09 02 AM](https://user-images.githubusercontent.com/4441280/234636033-99dd4dfe-ae35-4c02-8087-7b1beb8f7366.png)
+
 
 # Installing on an AWS EC2 instance
 
