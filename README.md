@@ -78,7 +78,7 @@ If you are curious, running `deactivate` will deactivate the virtual environment
 ### Installing flask
 
 With the virtual environment activated run `pip install flask` to install flask. If there is a `requirements.txt` file you could also run
-`pip -r requirements.txt` to install all the python dependencies (such as flask) in the `requirements.txt` file.
+`pip install -r requirements.txt` to install all the python dependencies (such as flask) in the `requirements.txt` file.
 
 
 ## Running the webserver
